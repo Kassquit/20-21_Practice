@@ -1,3 +1,10 @@
 ##Request input from a user and prompt the user to input a number
 ##Demonstrate the use of +, -, *, /, and % 
 ##Submit a pull request. One will be chosen to be merged into the main branch. 
+
+
+def Maths():
+    print("Enter X into function: ")
+    numberx = int(input());
+    numbery = (2*(numberx+10))/((numberx)**2+2(numberx)-30)
+    print("Y value: " + numbery)
